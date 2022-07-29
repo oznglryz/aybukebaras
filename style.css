@@ -353,6 +353,7 @@ div.col-5 span:before {
   .row2 > div > p > a 
   {
     text-decoration: none;
+    color: var(--txt);
   }
   .row2 > div > a > p
   {
