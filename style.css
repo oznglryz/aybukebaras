@@ -157,11 +157,7 @@ div.col-3 img
     margin-top: 25px;
     justify-items: center;
 }
-div.col-5
-{
-    align-items: center;
-}
-div.col-5 h2
+div.col-4 h2
 {
     font-family: 'Quicksand';
     text-align: center;
@@ -169,13 +165,13 @@ div.col-5 h2
     transition: 1s ease;
     text-shadow: 2px 2px 6px var(--border);
 }
-div.col-5 > h4{
+div.col-4 > h4{
   font-family: 'Quicksand';
   text-align:center;
   color: var(--txt);
 }
 
-div.col-5 span:before {
+div.col-4 span:before {
   font-family: 'Quicksand';
   color: var(--txt);
   content: "Psikolojik Danışman";
@@ -258,7 +254,7 @@ div.col-5 span:before {
 
 .social-links
 {
-    justify-items: center;
+    justify-content: center;
 }
   ul .social {
     display: flex;
@@ -319,15 +315,11 @@ div.col-5 span:before {
     background: #007bb5;
   }
 
-  ul.social li:nth-child(3) a:before {
-    background: green;
-  }
-
   ul.social li:nth-child(2) a:before {
     background: linear-gradient(to bottom right, #4864d8,#ae2bad,#e32159,#fa6746,#fec053);
   }
   
-  ul.social li:nth-child(4) a:before {
+  ul.social li:nth-child(3) a:before {
     background: goldenrod;
   }
   
