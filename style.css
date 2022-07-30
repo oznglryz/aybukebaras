@@ -157,7 +157,7 @@ div.col-3 img
     margin-top: 25px;
     justify-items: center;
 }
-div.col-5 h2
+div.col-4 h2
 {
     font-family: 'Quicksand';
     text-align: center;
@@ -165,17 +165,17 @@ div.col-5 h2
     transition: 1s ease;
     text-shadow: 2px 2px 6px var(--border);
 }
-div.col-5 > h4{
+div.col-4 > h4{
   font-family: 'Quicksand';
   text-align:center;
   color: var(--txt);
 }
 
-div.col-5 span:before {
+div.col-4 span:before {
   font-family: 'Quicksand';
   color: var(--txt);
   content: "Psikolojik Danışman";
-  animation: animate infinite 4s;
+  animation: animate infinite 5s;
   padding-left: 5px;
 }
 
