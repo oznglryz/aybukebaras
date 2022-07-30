@@ -20,12 +20,11 @@
   z-index: 1;
   overflow: hidden;
   background-color: var(--bg);
-  color: var(--txt);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.loader h4{
+.loader h2{
   color: var(--txt);
 }
 .hidden{
