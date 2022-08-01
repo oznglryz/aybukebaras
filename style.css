@@ -284,7 +284,7 @@ div.col-4 span:before {
   ul.social li a i {
     position: relative;
     color: var(--txt);
-    transition: 1s;
+    transition: 1.1s;
     z-index: 2;
   }
   
